@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    width: 190px;
+    height: 254px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 255, .3);
+    transition: all .4s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .3);
+}
+.card:hover{
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .3);
+}
